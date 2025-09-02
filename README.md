@@ -62,16 +62,25 @@ InTheBox/
 ## Production & Reproduction
 
 ### Dependencies  
-- **Python 3.8+** + NumPy, SciPy  
-- **SuperCollider** (Stress–Strain Curve,Avonlea)  
+- **Python 3.8+**  
+- Python packages: see `requirements.txt`  
+- **FFmpeg** (pydub/masters 用)  
+- **SuperCollider** (Stress–Strain Curve, Avonlea)  
 - **FAUST** (SCSI Disk)  
 - **norns** (Avonlea)  
-- **FFmpeg** (Mastering)  
+
+### Setup  
+- Create venv: `python3 -m venv .venv && source .venv/bin/activate`  
+- Install deps: `pip install -U pip && pip install -r requirements.txt`  
+- FFmpeg: macOS `brew install ffmpeg` / Ubuntu `sudo apt-get install ffmpeg`
+
+### How to Run (examples)  
+- Track 7 (Constellation): `python tracks/constellation/main.py`  
+- Track 10 (SCSI Disk): `python tracks/scsi_disk/scsi_disk_synth.py`  
+- Track 1 (EMRSP granular): requires audio source; see script `--help`  
 
 ## License
 
-- **Author**: Leo Kuroshita  
-- **Year**: 2025  
-
-- **Code**: GPL-3.0 
-- **Audio & Art**: CC BY-NC-SA 4.0 
+- **Author**: Leo Kuroshita (2025)  
+- **Code**: GPL-3.0 — see `LICENSE`  
+- **Audio & Art**: CC BY-NC-SA 4.0 — see `LICENSE-CC-BY-NC-SA-4.0.txt`  
