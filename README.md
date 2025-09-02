@@ -37,10 +37,10 @@ InTheBox/
 ├── tracks/           # Source code for each track production
 │   ├── EMRSP/        # Track 1: 偏頭痛／刹那的な感覚の再現
 │   ├── Your_Wrapped_Conversation/ # Track 2: ラッピングされた君の会話
-│   ├── field/        # Track 3: 不確定の庭
+│   ├── indeterminacy_field/        # Track 3: 不確定の庭
 │   ├── drosera/      # Track 4: Drosera's Song
 │   ├── stress-strain_curve/ # Track 5: 応力–ひずみ曲線
-│   ├── voices/       # Track 6: Choral Induction Protocol
+│   ├── choral_induction_protocol/       # Track 6: Choral Induction Protocol
 │   ├── constellation/ # Track 7: Constellation - Phase 1 Group 2
 │   └── scsi_disk/    # Track 10: SCSIディスク
 └── mastering/        # Mastering scripts
