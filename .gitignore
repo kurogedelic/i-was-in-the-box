@@ -1,0 +1,34 @@
+# OS / Editor
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Project outputs (not source)
+release/
+masters/
+tracks/constellation/data/
+
